@@ -23,8 +23,21 @@ git config --global user.name "username"
 git init
 ```
 
+
+
 * Para ver el estado de nuestros cambios
 
 ```bash
 git status
 ```
+
+* Para subir al staget
+```bash
+git add .|(nombreDelArchivo)
+```
+
+* Para subir al repositorio local
+```bash
+git commit -m "comentario"
+```
+
